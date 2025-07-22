@@ -23,8 +23,6 @@ jobs:
       
 
       - name: Run Build
-        env:
-          VERSION: ${{ github.event.inputs.version }}
         run: |
           cd ~/e900v22c-CoreELEC
           sh build.sh
